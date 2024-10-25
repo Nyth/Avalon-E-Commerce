@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "nodemailer": "^6.9.15"
+  },
+  "name": "avalon-e-commerce",
+  "version": "1.0.0",
+  "description": "@copyright by becodemy 2023",
+  "main": "backend/server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nayem Al Tareq",
+  "license": "ISC"
+}
