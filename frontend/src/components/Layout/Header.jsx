@@ -58,8 +58,14 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-                alt=""
+                src="https://res.cloudinary.com/nayemaltareq/image/upload/c_thumb,w_200,g_face/v1730862980/NiDK0B01_x7ra0o.svg"
+                alt="Logo"
+                style={{
+             width: "70%", // Adjust the width as needed
+             height: "auto", // Maintains aspect ratio
+             display: "block", // Removes any inline spacing around the image
+            margin: "0 auto", // Centers the image within the Link if block-level
+             }}
               />
             </Link>
           </div>
@@ -107,10 +113,15 @@ const Header = ({ activeHeading }) => {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         className={`${
           active === true ? "shadow-sm fixed top-0 left-0 z-10" : null
         } transition hidden 800px:flex items-center justify-between w-full bg-[#3321c8] h-[70px]`}
+      > */}
+       <div
+        className={`${
+          active === true ? "shadow-sm fixed top-0 left-0 z-10" : null
+        } transition hidden 800px:flex items-center justify-between w-full bg-[#000000] h-[70px]`}
       >
         <div
           className={`${styles.section} relative ${styles.noramlFlex} justify-between`}

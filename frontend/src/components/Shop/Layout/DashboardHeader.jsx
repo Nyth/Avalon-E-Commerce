@@ -13,27 +13,27 @@ const DashboardHeader = () => {
       <div>
         <Link to="/dashboard">
           <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-            alt=""
-          />
+                src="https://res.cloudinary.com/nayemaltareq/image/upload/c_thumb,w_200,g_face/v1730862980/NiDK0B01_x7ra0o.svg"
+                alt="Logo"
+                style={{
+             width: "70%", // Adjust the width as needed
+             height: "auto", // Maintains aspect ratio
+             display: "block", // Removes any inline spacing around the image
+             margin: "0 auto", // Centers the image within the Link if block-level
+             }}
+              />
         </Link>
       </div>
       <div className="flex items-center">
         <div className="flex items-center mr-4">
-          <Link to="/dashboard/cupouns" className="800px:block hidden">
-            <AiOutlineGift
-              color="#555"
-              size={30}
-              className="mx-5 cursor-pointer"
-            />
-          </Link>
-          <Link to="/dashboard-events" className="800px:block hidden">
+ 
+          {/* <Link to="/dashboard-events" className="800px:block hidden">
             <MdOutlineLocalOffer
               color="#555"
               size={30}
               className="mx-5 cursor-pointer"
             />
-          </Link>
+          </Link> */}
           <Link to="/dashboard-products" className="800px:block hidden">
             <FiShoppingBag
               color="#555"

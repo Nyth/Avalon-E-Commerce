@@ -8,16 +8,18 @@ const Hero = () => {
       className={`relative min-h-[70vh] 800px:min-h-[80vh] w-full bg-no-repeat ${styles.noramlFlex}`}
       style={{
         backgroundImage:
-          "url(https://themes.rslahmed.dev/rafcart/assets/images/banner-2.jpg)",
+    "url(https://res.cloudinary.com/nayemaltareq/image/upload/v1730862241/01__kv_rog_scar_se_sajzue.jpg)",
+        backgroundPosition: "center", // Centers the background image
+        backgroundSize: "cover",
       }}
     >
       <div className={`${styles.section} w-[90%] 800px:w-[60%]`}>
         <h1
-          className={`text-[35px] leading-[1.2] 800px:text-[60px] text-[#3d3a3a] font-[600] capitalize`}
+          className={`text-[35px] leading-[1.2] 800px:text-[60px] text-[#fff] font-[600] capitalize`}
         >
-          Best Collection for <br /> home Decoration
+          Best Collection for <br /> Everything
         </h1>
-        <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#000000ba]">
+        <p className="pt-5 text-[16px] font-[Poppins] font-[400] text-[#fff]">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae,
           assumenda? Quisquam itaque <br /> exercitationem labore vel, dolore
           quidem asperiores, laudantium temporibus soluta optio consequatur{" "}
