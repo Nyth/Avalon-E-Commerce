@@ -190,14 +190,14 @@ export const navItems = [
       title: "Computers and Laptops",
       subTitle: "",
       image_Url:
-        "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+        "https://dlcdnwebimgs.asus.com/files/media/135B75ED-C0F7-4BB9-928F-2B1A1E9CB34F/v2/img/display/strix-g-2022.png",
     },
     {
       id: 2,
       title: "cosmetics and body care",
       subTitle: "",
       image_Url:
-        "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
+        "https://www.shutterstock.com/image-photo/woman-holding-nude-lipstick-on-260nw-2446171749.jpg",
     },
     {
       id: 3,
@@ -225,13 +225,13 @@ export const navItems = [
       title: "Gifts",
       subTitle: "",
       image_Url:
-        "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+        "https://thumbs.dreamstime.com/b/3d-gift-box-18034201.jpg",
     },
     {
       id: 7,
       title: "Pet Care",
       subTitle: "",
-      image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
+      image_Url: "https://www.shutterstock.com/image-photo/cat-dog-above-banner-isolated-260nw-1380885272.jpg",
     },
     {
       id: 8,
@@ -252,7 +252,7 @@ export const navItems = [
       title: "Others",
       subTitle: "",
       image_Url:
-        "https://searchspring.com/wp-content/uploads/2022/10/Hero-Image-Platform-Others-2.png",
+        "https://media.istockphoto.com/id/2148911210/vector/yellow-color-transportation-sign-with-word-etc-on-white-background.jpg?s=612x612&w=0&k=20&c=g7YwzyKjZp6ADeffDztEesBthXh6cBwgN6Piy5FRZ6w=",
     },
   ];
   

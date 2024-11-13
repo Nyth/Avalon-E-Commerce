@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Nayem Al Tareq",
+  "license": "MUN",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
