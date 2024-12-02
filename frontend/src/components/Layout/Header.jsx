@@ -228,9 +228,17 @@ const Header = ({ activeHeading }) => {
           <div>
             <Link to="/">
               <img
-                src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+                src="https://res.cloudinary.com/nayemaltareq/image/upload/c_thumb,w_200,g_face/v1730862980/NiDK0B01_x7ra0o.svg"
                 alt=""
                 className="mt-3 cursor-pointer"
+                //  className="mt-3 cursor-pointer"
+                 style={{
+             width: "37%",
+             height: "24%",
+            display: "block",
+            margin: "-18% auto",
+            // Centers the image within the Link if block-level
+             }}
               />
             </Link>
           </div>
